@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mystruts>
+    <package>
+        <action name="login" class="cn.zedongw.mystruts.framework.action.LoginAction">
+            <result name="loginSuccess" type="redirect">/index.jsp</result>
+            <result name="loginFaild">/login.jsp</result>
+        </action>
+        <action name="register" class="cn.zedongw.mystruts.framework.action.RegisterAction">
+            <result name="registerSuccess">/login.jsp</result>
+        </action>
+    </package>
+</mystruts>
